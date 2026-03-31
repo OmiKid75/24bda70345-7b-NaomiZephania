@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  /* shadcn/UI variables (minimal subset) */
+  --radius: 0.5rem;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-zinc-50 text-zinc-900;
+}
